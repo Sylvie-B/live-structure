@@ -1,0 +1,45 @@
+/*recset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*rééquilibrage rem/px*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+/* on regroupe les proprietes css de valeur identique   */
+#div1, #div2, .enfant{
+    display: inline-block;
+    border: 1px dotted cornflowerblue;
+    height: 20rem;
+    margin-right: -4px;
+    overflow: hidden;
+}
+
+#div1{
+    width: 30%;
+}
+
+#div2{
+    width: 70%;
+}
+
+.enfant{
+    width: 100%;
+    border: 1px solid chartreuse;
+    height: 10rem;
+}
+
